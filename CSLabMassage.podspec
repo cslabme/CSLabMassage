@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yaman/CSLabMassage'
+  s.homepage         = 'https://github.com/cslab/CSLabMassage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yaman' => 'komeda@peche.co.jp' }
-  s.source           = { :git => 'https://github.com/yaman/CSLabMassage.git', :tag => s.version.to_s }
+  s.author           = { 'cslab' => 'cs@cs-lab.me' }
+  s.source           = { :git => 'https://github.com/cslab/CSLabMassage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

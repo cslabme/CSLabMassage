@@ -1,6 +1,6 @@
 # CSLabMassage
 
-[![CI Status](https://img.shields.io/travis/yaman/CSLabMassage.svg?style=flat)](https://travis-ci.org/yaman/CSLabMassage)
+[![CI Status](https://img.shields.io/travis/cslab/CSLabMassage.svg?style=flat)](https://travis-ci.org/yaman/CSLabMassage)
 [![Version](https://img.shields.io/cocoapods/v/CSLabMassage.svg?style=flat)](https://cocoapods.org/pods/CSLabMassage)
 [![License](https://img.shields.io/cocoapods/l/CSLabMassage.svg?style=flat)](https://cocoapods.org/pods/CSLabMassage)
 [![Platform](https://img.shields.io/cocoapods/p/CSLabMassage.svg?style=flat)](https://cocoapods.org/pods/CSLabMassage)
@@ -22,7 +22,7 @@ pod 'CSLabMassage'
 
 ## Author
 
-yaman, komeda@peche.co.jp
+cslab, cs@cs-lab.me
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module CSLabMassage {
+  umbrella header "CSLabMassage-umbrella.h"
+
+  export *
+  module * { export * }
+}

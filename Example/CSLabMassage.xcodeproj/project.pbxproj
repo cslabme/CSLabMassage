@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		4128A001CA162E86FCDB66F8 /* Pods_CSLabMassage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSLabMassage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5237A9D2DA48747C8EB59716 /* CSLabMassage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSLabMassage.podspec; path = ../CSLabMassage.podspec; sourceTree = "<group>"; };
+		5237A9D2DA48747C8EB59716 /* CSLabMassage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSLabMassage.podspec; path = ../CSLabMassage.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CSLabMassage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSLabMassage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* CSLabMassage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSLabMassage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		70155518DD342CA9A90FFA75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		70155518DD342CA9A90FFA75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8A24C69F543AFAF2234C69C9 /* Pods-CSLabMassage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSLabMassage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSLabMassage_Tests/Pods-CSLabMassage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7626D5112FE17BA4024319B /* Pods_CSLabMassage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSLabMassage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F4D7344409730BAAE27DD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1F4D7344409730BAAE27DD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3FCBDD17C8F9A8A161A2892 /* Pods-CSLabMassage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSLabMassage_Tests.release.xcconfig"; path = "Target Support Files/Pods-CSLabMassage_Tests/Pods-CSLabMassage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1F5C3581FD88778B3E57ECE /* Pods-CSLabMassage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSLabMassage_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSLabMassage_Example/Pods-CSLabMassage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC499CD8F552820EA5141236 /* Pods-CSLabMassage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSLabMassage_Example.release.xcconfig"; path = "Target Support Files/Pods-CSLabMassage_Example/Pods-CSLabMassage_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				8A24C69F543AFAF2234C69C9 /* Pods-CSLabMassage_Tests.debug.xcconfig */,
 				C3FCBDD17C8F9A8A161A2892 /* Pods-CSLabMassage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MSK2UYS3VJ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MSK2UYS3VJ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -504,6 +506,7 @@
 			baseConfigurationReference = D1F5C3581FD88778B3E57ECE /* Pods-CSLabMassage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MSK2UYS3VJ;
 				INFOPLIST_FILE = CSLabMassage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +522,7 @@
 			baseConfigurationReference = FC499CD8F552820EA5141236 /* Pods-CSLabMassage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MSK2UYS3VJ;
 				INFOPLIST_FILE = CSLabMassage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -533,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A24C69F543AFAF2234C69C9 /* Pods-CSLabMassage_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MSK2UYS3VJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -555,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3FCBDD17C8F9A8A161A2892 /* Pods-CSLabMassage_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MSK2UYS3VJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,22 @@
+{
+  "name": "CSLabMassage",
+  "version": "0.1.0",
+  "summary": "A short description of CSLabMassage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yaman/CSLabMassage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yaman": "komeda@peche.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/yaman/CSLabMassage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CSLabMassage/Classes/**/*"
+}

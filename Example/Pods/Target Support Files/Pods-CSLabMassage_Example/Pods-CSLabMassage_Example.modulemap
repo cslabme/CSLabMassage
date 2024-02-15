@@ -1,0 +1,6 @@
+framework module Pods_CSLabMassage_Example {
+  umbrella header "Pods-CSLabMassage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
